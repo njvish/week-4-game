@@ -1,0 +1,71 @@
+body {
+	background-image: url("../images/crystal-ball.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+
+h1{
+	color: white;
+	clear: both; 
+	left: 44%;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    font-size: 40px;		
+}
+
+p{
+	font-weight: bold;
+	color: black;
+	font-size: 100%;
+}
+
+
+#number {
+	color: white;
+	clear: both; 
+	left: 46%;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    font-size: 30px;
+}
+
+#winLoss {
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+	font-size: 25px;
+}
+
+#crystals {
+	margin-top: 300px;
+	margin-bottom:26px;
+	margin-left: 570px;
+	position: absolute;
+}
+
+.crystal {
+	height: 150px;
+	margin-left: 10px:;
+	padding: 10px;
+}
+
+#total {
+	margin-bottom: 10%;
+}
+
+#guessTotal {
+	display: inline;
+	padding: 20px;
+	color: white;
+	font-size: 25px;	
+}

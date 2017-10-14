@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Crystal Ball</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1><span>Crystal Collectors!</span></h1>
+			<div class = "container-fluid">
+				<div id="number">
+					<h2><span>Number to Guess: <span id="guessNum"></span></span></h2>
+				</div>
+				<div id="winLoss">
+					<h3><span id="outcome"></span></h3>
+					<h3>Wins: <span id="win"></span></h3>
+					<h3>Losses: <span id="loss"></span></h3>
+				</div>
+			</div>
+			
+			<div class="container-fluid">
+				<div id ="total">
+					<h2 id = "guessTotal">Your Total is: <span id ="yourTotal">0</span></h2>
+				</div>
+				<div id="crystals">
+					<img src="assets/images/crystals.jpg" id="firstCrystal" class="crystal">
+					<img src="assets/images/crystals.jpg" id="secondCrystal" class="crystal">
+					<img src="assets/images/crystals.jpg" id="thirdCrystal" class="crystal">
+					<img src="assets/images/crystals.jpg" id="forthCrystal" class="crystal">
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+</html>
