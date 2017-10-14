@@ -58,6 +58,10 @@ $(document).ready(function() {
 			compare();
 		});
 
+		//function to verify the outcome
+		//if count = generated number you win
+		//if count > generated number you loose
+		//reset
 		var compare = function(){
 		
 			if (count === randomNumber) {
